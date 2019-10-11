@@ -1,10 +1,15 @@
 #include <stdio.h>
 #include <signal.h>
 
-int main(int argc, char* argv[]) {
-    signal(SIGINT, SIG_IGN);
+void test(int a) {
+    printf("Penis\n");
+}
 
-    while(1) {}
+int main(int argc, char* argv[]) {
+    //signal(SIGINT, test);
+    signal(SIGINT, SIG_DFL);
+
+    while(1);
 
     return 0;
 }
