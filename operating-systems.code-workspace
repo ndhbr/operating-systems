@@ -11,7 +11,17 @@
 		},
 		{
 			"path": "exercise-sheet-4"
+		},
+		{
+			"path": "exercise-sheet-5"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"string.h": "c",
+			"code_transfer.h": "c",
+			"stdlib.h": "c",
+			"stdio.h": "c"
+		}
+	}
 }
