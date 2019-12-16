@@ -20,6 +20,9 @@
 		},
 		{
 			"path": "exercise-sheet-7"
+		},
+		{
+			"path": "exercise-sheet-8"
 		}
 	],
 	"settings": {
@@ -27,7 +30,8 @@
 			"string.h": "c",
 			"code_transfer.h": "c",
 			"stdlib.h": "c",
-			"stdio.h": "c"
+			"stdio.h": "c",
+			"math.h": "c"
 		}
 	}
 }
