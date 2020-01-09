@@ -2,7 +2,7 @@
 #include <signal.h>
 
 void test(int a) {
-    printf("Penis\n");
+    printf("Test\n");
 }
 
 int main(int argc, char* argv[]) {
